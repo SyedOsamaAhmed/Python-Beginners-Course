@@ -1,5 +1,4 @@
 
-
 price = 10
 rating = 4.9
 is_published = True
@@ -22,24 +21,3 @@ is_new = True
 # weight_in_lb = input("Enter your weight: ")
 # weight_in_kg = int(weight_in_lb)*0.45
 # print(weight_in_kg)
-# course = '''Hi Osama
-
-# This is the first email.
-
-# Thank you
-# support team
-
-# '''
-
-course = "Python for beginners"
-print(len(course))
-print(course.upper())
-print(course.lower())
-print(course.find('o'))
-print(course.replace('beginners', 'absolute beginners'))
-print('Python' in course)
-
-# first_name = "John"
-# last_name = "Smith"
-# message = f'{first_name} [{last_name}] is a coder.'
-# print(message)
