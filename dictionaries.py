@@ -17,15 +17,19 @@
 # Emoji Generator:
 
 message = input("> ")
-word = message.split(' ')
 
 
-emojis = {
-    ":)": "😃",
-    ":(": "😢"
-}
+def emoji_convertor(message):
+    word = message.split(' ')
+    emojis = {
+        ":)": "😃",
+        ":(": "😢"
+    }
+    output = ""
+    for word in word:
+        output += emojis.get(word, word) + " "
 
-output = ""
-for word in word:
-    output += emojis.get(word, word) + " "
-print(output)
+    return output
+
+
+print(emoji_convertor(message))
